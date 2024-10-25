@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d84be74d-62cf-4018-82d6-2f01e0d49912",
+		"name": "DSW_T3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38291930"
+	},
+	"item": [
+		{
+			"name": "Registrar un nuevo cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Fernando Adrian\",\r\n    \"email\": \"fernandoadrian@gmail.com\",\r\n    \"telefono\": \"994785632\",\r\n    \"direccion\":\"Av. Universitaria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/clientes/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
